@@ -1,0 +1,5 @@
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDInfra.deps.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDInfra.dll
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.AssemblyInfo.cs
