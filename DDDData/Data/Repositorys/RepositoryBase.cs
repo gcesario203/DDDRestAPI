@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
 
 namespace DDDInfra.Data.Repositorys
@@ -53,7 +54,16 @@ namespace DDDInfra.Data.Repositorys
 
         public void Update(TEntity obj)
         {
-            throw new NotImplementedException();
+            try 
+            {
+                sqlContext.Entry(obj).State = EntityState.Modified;
+
+                sqlContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

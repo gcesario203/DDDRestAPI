@@ -1,0 +1,9 @@
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDApplication.deps.json
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDApplication.dll
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDApplication.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.dll
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.pdb

@@ -3,3 +3,12 @@ C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDInfr
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.csprojAssemblyReference.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.AssemblyInfoInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDInfra.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDCore.dll
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDDomain.dll
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDCore.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDDomain.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.csproj.CopyComplete
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.dll
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.pdb

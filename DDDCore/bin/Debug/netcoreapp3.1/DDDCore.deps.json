@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DDDCore/1.0.0": {
+        "dependencies": {
+          "DDDDomain": "1.0.0"
+        },
+        "runtime": {
+          "DDDCore.dll": {}
+        }
+      },
+      "DDDDomain/1.0.0": {
+        "runtime": {
+          "DDDDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDDCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DDDDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

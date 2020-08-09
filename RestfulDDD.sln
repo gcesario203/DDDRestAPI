@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDCore", "DDDCore\DDDCore.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDServices", "DDDServices\DDDServices.csproj", "{5D0F89FD-6FE5-49A5-A14B-535E10402C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDData", "DDDData\DDDData.csproj", "{3B4D00EF-3DB5-4AEA-B40F-A9C6D3F59259}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDInfra", "DDDData\DDDInfra.csproj", "{3B4D00EF-3DB5-4AEA-B40F-A9C6D3F59259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
