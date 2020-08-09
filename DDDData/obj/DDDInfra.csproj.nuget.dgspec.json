@@ -214,7 +214,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDCore\\DDDCore.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDCore\\DDDCore.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

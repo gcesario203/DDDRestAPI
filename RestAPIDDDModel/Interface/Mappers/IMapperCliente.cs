@@ -1,10 +1,8 @@
 ﻿using DDDApplication.Dtos;
 using DDDDomain.Entitys;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace DDDInfra.CrossCutting.Interfaces
+namespace DDDApplication.Interface.Mappers
 {
     public interface IMapperCliente
     {

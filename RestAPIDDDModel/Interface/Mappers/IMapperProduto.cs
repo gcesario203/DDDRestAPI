@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DDDInfra.CrossCutting.Interfaces
+namespace DDDApplication.Interface.Mappers
 {
     public interface IMapperProduto
     {

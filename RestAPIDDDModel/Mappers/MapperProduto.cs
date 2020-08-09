@@ -1,12 +1,12 @@
 ﻿using DDDApplication.Dtos;
+using DDDApplication.Interface.Mappers;
 using DDDDomain.Entitys;
-using DDDInfra.CrossCutting.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DDDInfra.CrossCutting.Mapper
+namespace DDDApplication.Mappers
 {
     public class MapperProduto : IMapperProduto
     {

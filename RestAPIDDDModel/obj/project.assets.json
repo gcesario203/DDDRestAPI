@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DDDCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DDDDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DDDCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDCore.dll": {}
+        }
+      },
+      "DDDDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DDDDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDDomain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DDDCore/1.0.0": {
+      "type": "project",
+      "path": "../DDDCore/DDDCore.csproj",
+      "msbuildProject": "../DDDCore/DDDCore.csproj"
+    },
+    "DDDDomain/1.0.0": {
+      "type": "project",
+      "path": "../DDDDomain/DDDDomain.csproj",
+      "msbuildProject": "../DDDDomain/DDDDomain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DDDCore >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Usuario\\.nuget\\packages\\": {},
@@ -36,7 +73,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDCore\\DDDCore.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDCore\\DDDCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

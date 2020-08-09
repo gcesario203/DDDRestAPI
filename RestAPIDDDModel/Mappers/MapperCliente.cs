@@ -1,11 +1,12 @@
 ﻿using DDDApplication.Dtos;
+using DDDApplication.Interface.Mappers;
 using DDDDomain.Entitys;
-using DDDInfra.CrossCutting.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
-namespace DDDInfra.CrossCutting.Mapper
+namespace DDDApplication.Mappers
 {
     public class MapperCliente : IMapperCliente
     {
@@ -38,12 +39,12 @@ namespace DDDInfra.CrossCutting.Mapper
         public IEnumerable<ClienteDto> MapperListClienteDto(IEnumerable<Cliente> clientes)
         {
             var dto = clientes.Select(cliente => new ClienteDto
-                {
-                    Id = cliente.Id,
-                    Nome = cliente.Nome,
-                    Sobrenome = cliente.Sobrenome,
-                    Email = cliente.Email
-                }
+            {
+                Id = cliente.Id,
+                Nome = cliente.Nome,
+                Sobrenome = cliente.Sobrenome,
+                Email = cliente.Email
+            }
             );
 
             return dto;
