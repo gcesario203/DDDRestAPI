@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Interface\" />
+    <ProjectReference Include="..\DDDCore\DDDCore.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,3 +7,8 @@ C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1
 C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.dll
 C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDCore.dll
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDDomain.dll
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDCore.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\bin\Debug\netcoreapp3.1\DDDDomain.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\RestAPIDDDModel\obj\Debug\netcoreapp3.1\DDDApplication.csproj.CopyComplete

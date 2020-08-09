@@ -12,3 +12,5 @@ C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfr
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.csproj.CopyComplete
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.dll
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDApplication.dll
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDApplication.pdb

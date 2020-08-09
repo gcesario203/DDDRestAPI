@@ -1,11 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\" />
+    <Folder Include="CrossCutting\IOC\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DDDCore\DDDCore.csproj" />
     <ProjectReference Include="..\DDDDomain\DDDDomain.csproj" />
+    <ProjectReference Include="..\RestAPIDDDModel\DDDApplication.csproj" />
   </ItemGroup>
 
 </Project>
