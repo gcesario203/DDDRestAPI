@@ -216,6 +216,16 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "DDDApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DDDApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDApplication.dll": {}
+        }
+      },
       "DDDCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -653,6 +663,11 @@
         "version.txt"
       ]
     },
+    "DDDApplication/1.0.0": {
+      "type": "project",
+      "path": "../RestAPIDDDModel/DDDApplication.csproj",
+      "msbuildProject": "../RestAPIDDDModel/DDDApplication.csproj"
+    },
     "DDDCore/1.0.0": {
       "type": "project",
       "path": "../DDDCore/DDDCore.csproj",
@@ -666,6 +681,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DDDApplication >= 1.0.0",
       "DDDCore >= 1.0.0",
       "DDDDomain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.6"
@@ -706,6 +722,9 @@
             },
             "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDDomain\\DDDDomain.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDDomain\\DDDDomain.csproj"
+            },
+            "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\RestAPIDDDModel\\DDDApplication.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\RestAPIDDDModel\\DDDApplication.csproj"
             }
           }
         }
