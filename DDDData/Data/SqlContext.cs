@@ -9,8 +9,9 @@ namespace DDDInfra.Data
     {
         public SqlContext() { }
 
-        public SqlContext(DbContextOptions<SqlContext> options): base(options) {
-            
+        public SqlContext(DbContextOptions<SqlContext> options) : base(options)
+        {
+
         }
 
         public DbSet<Cliente> Clientes { get; set; }
@@ -18,14 +19,14 @@ namespace DDDInfra.Data
 
         public override int SaveChanges()
         {
-            foreach 
-            (var entry in ChangeTracker.Entries().Where(entry=>entry.Entity.GetType().GetProperty("DataCadastro") != null))
+            foreach
+            (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
             {
-                if(entry.State == EntityState.Added)
+                if (entry.State == EntityState.Added)
                 {
                     entry.Property("DataCadastro").CurrentValue = DateTime.Now;
                 }
-                if(entry.State == EntityState.Modified)
+                if (entry.State == EntityState.Modified)
                 {
                     entry.Property("DataCadastro").IsModified = false;
                 }

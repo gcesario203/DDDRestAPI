@@ -1,24 +1,23 @@
 ﻿using DDDCore.Interfaces.Repositorys;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using System.Text;
 
 namespace DDDInfra.Data.Repositorys
 {
-    public class RepositoryBase<TEntity>:IRepositoryBase<TEntity> where TEntity : class
+    public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
         private readonly SqlContext sqlContext;
 
-        public RepositoryBase(SqlContext sqlContext) 
+        public RepositoryBase(SqlContext sqlContext)
         {
             this.sqlContext = sqlContext;
         }
 
         public void Add(TEntity obj)
         {
-            try 
+            try
             {
                 sqlContext.Set<TEntity>().Add(obj);
 
@@ -46,7 +45,7 @@ namespace DDDInfra.Data.Repositorys
             {
                 sqlContext.Set<TEntity>().Remove(obj);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -54,7 +53,7 @@ namespace DDDInfra.Data.Repositorys
 
         public void Update(TEntity obj)
         {
-            try 
+            try
             {
                 sqlContext.Entry(obj).State = EntityState.Modified;
 

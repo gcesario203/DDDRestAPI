@@ -1,8 +1,5 @@
 ﻿using DDDCore.Interfaces.Repositorys;
 using DDDDomain.Entitys;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DDDInfra.Data.Repositorys
 {

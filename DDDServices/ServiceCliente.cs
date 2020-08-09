@@ -1,9 +1,6 @@
 ﻿using DDDCore.Interfaces.Repositorys;
 using DDDCore.Interfaces.Services;
 using DDDDomain.Entitys;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DDDServices
 {

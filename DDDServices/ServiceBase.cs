@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DDDServices
 {
-    public class ServiceBase<TEntity> :IServiceBase<TEntity> where TEntity : class
+    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : class
     {
         private readonly IRepositoryBase<TEntity> repository;
 

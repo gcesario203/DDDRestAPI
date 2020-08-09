@@ -7,7 +7,7 @@ namespace DDDInfra.Data.Repositorys
     {
         private readonly SqlContext sqlContext;
 
-        public RepositoryCliente(SqlContext sqlContext):base(sqlContext)
+        public RepositoryCliente(SqlContext sqlContext) : base(sqlContext)
         {
             this.sqlContext = sqlContext;
         }
