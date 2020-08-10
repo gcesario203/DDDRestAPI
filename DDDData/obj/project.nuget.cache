@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ApkiNKCPMwz+HcrdOXN6AI3b11OxHZP6mN+Jx6HCmfwTJV+jLiGN5+ETMwIYvbmHIxNZxubW5r+2FMtdGjLgDQ==",
+  "dgSpecHash": "05lQNcod9tWH+zsrlq5xhEjv5A6jmFebc2IhSEUpD2t0uFD9gPXSwg1+FXVjE1KTxRhoPu6YeMc7BhMUdJehxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDData\\DDDInfra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\autofac\\5.1.4\\autofac.5.1.4.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.6\\microsoft.entityframeworkcore.3.1.6.nupkg.sha512",

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DDDApplication.Interface
 {
-    interface IApplicationServiceProduto
+    public interface IApplicationServiceProduto
     {
         void Add(ProdutoDto produtoDto);
         void Update(ProdutoDto produtoDto);

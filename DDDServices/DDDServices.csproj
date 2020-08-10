@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DDDCore\DDDCore.csproj" />
-    <ProjectReference Include="..\DDDData\DDDInfra.csproj" />
   </ItemGroup>
 
 </Project>

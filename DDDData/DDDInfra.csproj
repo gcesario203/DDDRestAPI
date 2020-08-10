@@ -5,16 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\IOC\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DDDCore\DDDCore.csproj" />
     <ProjectReference Include="..\DDDDomain\DDDDomain.csproj" />
+    <ProjectReference Include="..\DDDServices\DDDServices.csproj" />
     <ProjectReference Include="..\RestAPIDDDModel\DDDApplication.csproj" />
   </ItemGroup>
 

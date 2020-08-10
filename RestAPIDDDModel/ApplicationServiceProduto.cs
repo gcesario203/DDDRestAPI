@@ -8,7 +8,7 @@ using System.Text;
 
 namespace DDDApplication
 {
-    class ApplicationServiceProduto : IApplicationServiceProduto
+    public class ApplicationServiceProduto : IApplicationServiceProduto
     {
         private readonly IServiceProduto serviceProduto;
         private readonly IMapperProduto mapperProduto;

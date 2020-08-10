@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/5.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -251,10 +260,44 @@
         "runtime": {
           "bin/placeholder/DDDDomain.dll": {}
         }
+      },
+      "DDDServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DDDCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DDDServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDServices.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/5.1.4": {
+      "sha512": "MsAEZJNCBTwZ21cBaFosWvR+zNG3VXB8y8qn3HmYl6m9iR/CDqDQykqBzfApbqj3N1l2I4qVBPA2exIdHJvANQ==",
+      "type": "package",
+      "path": "autofac/5.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.5.1.4.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.dll",
+        "lib/net461/Autofac.pdb",
+        "lib/net461/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -680,13 +723,20 @@
       "type": "project",
       "path": "../DDDDomain/DDDDomain.csproj",
       "msbuildProject": "../DDDDomain/DDDDomain.csproj"
+    },
+    "DDDServices/1.0.0": {
+      "type": "project",
+      "path": "../DDDServices/DDDServices.csproj",
+      "msbuildProject": "../DDDServices/DDDServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Autofac >= 5.1.4",
       "DDDApplication >= 1.0.0",
       "DDDCore >= 1.0.0",
       "DDDDomain >= 1.0.0",
+      "DDDServices >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.6"
     ]
   },
@@ -726,6 +776,9 @@
             "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDDomain\\DDDDomain.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDDomain\\DDDDomain.csproj"
             },
+            "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDServices\\DDDServices.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\DDDServices\\DDDServices.csproj"
+            },
             "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\RestAPIDDDModel\\DDDApplication.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\RestfulDDD\\RestAPIDDDModel\\DDDApplication.csproj"
             }
@@ -741,6 +794,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[5.1.4, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.6, )"
