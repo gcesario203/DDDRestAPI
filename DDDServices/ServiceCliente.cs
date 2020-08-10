@@ -4,7 +4,7 @@ using DDDDomain.Entitys;
 
 namespace DDDServices
 {
-    public class ServiceCliente : ServiceBase<Cliente>, IServiceBase<Cliente>
+    public class ServiceCliente : ServiceBase<Cliente>, IServiceCliente
     {
         private readonly IRepositoryCliente repository;
 
