@@ -15,4 +15,7 @@ C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDAppl
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDApplication.pdb
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDServices.dll
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDServices.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDInfra.runtimeconfig.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\bin\Debug\netcoreapp3.1\DDDInfra.runtimeconfig.dev.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDData\obj\Debug\netcoreapp3.1\DDDInfra.csproj.CoreCompileInputs.cache

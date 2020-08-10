@@ -8,7 +8,10 @@ C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\bin\Debug\netcoreapp3.1\DDD
 C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.csprojAssemblyReference.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.AssemblyInfoInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.AssemblyInfo.cs
-C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.csproj.CopyComplete
 C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.dll
 C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\bin\Debug\netcoreapp3.1\DDDServices.runtimeconfig.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\bin\Debug\netcoreapp3.1\DDDServices.runtimeconfig.dev.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\RestfulDDD\DDDServices\obj\Debug\netcoreapp3.1\DDDServices.csproj.CoreCompileInputs.cache

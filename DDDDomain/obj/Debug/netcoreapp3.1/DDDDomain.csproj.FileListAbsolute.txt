@@ -4,6 +4,9 @@ C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\bin\Debug\netcoreapp3.1\DDDDo
 C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.csprojAssemblyReference.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.AssemblyInfoInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.AssemblyInfo.cs
-C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.dll
 C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\bin\Debug\netcoreapp3.1\DDDDomain.runtimeconfig.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\bin\Debug\netcoreapp3.1\DDDDomain.runtimeconfig.dev.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\RestfulDDD\DDDDomain\obj\Debug\netcoreapp3.1\DDDDomain.csproj.CoreCompileInputs.cache

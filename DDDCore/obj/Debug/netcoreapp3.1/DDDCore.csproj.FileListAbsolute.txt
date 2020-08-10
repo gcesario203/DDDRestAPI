@@ -6,7 +6,10 @@ C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\bin\Debug\netcoreapp3.1\DDDDoma
 C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.csprojAssemblyReference.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.AssemblyInfoInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.AssemblyInfo.cs
-C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.csproj.CopyComplete
 C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.dll
 C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.pdb
+C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\bin\Debug\netcoreapp3.1\DDDCore.runtimeconfig.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\bin\Debug\netcoreapp3.1\DDDCore.runtimeconfig.dev.json
+C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\RestfulDDD\DDDCore\obj\Debug\netcoreapp3.1\DDDCore.csproj.CoreCompileInputs.cache
